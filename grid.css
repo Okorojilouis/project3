@@ -1,0 +1,131 @@
+.container{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.headcontainer{
+
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.nerve{
+
+}
+.nerve ul{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 450px;
+
+}
+.nerve ul li{
+    list-style: none;
+    margin-left: 10PX;
+    margin-right: 10px;
+
+}
+    h1{
+        text-align: left;
+    }
+    .hambugar{
+        display: none;
+        margin-top: 75px;
+    }
+.imagediv{
+    height: 100px;
+    width: 400px;
+    background-color: brown;
+}
+.imagediv img{
+    height: 100%;
+    width: 100%;
+}
+
+.productdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0;
+    row-gap: 30px;
+    
+}
+
+.divcard{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 3px solid black;
+}
+.divcard img{
+    height: 100%;
+    width: 100%;
+}
+.letters{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    text-align:center;
+}
+ul{
+    height: 150px;
+    width: 100px;
+    justify-content: left;
+}
+.card1{
+    height: 200px;
+    width: 150px;
+    background-color: blue;
+    border: 5px solid red;
+
+    
+}
+
+    
+.card1:hover{
+    background-color: red;
+    transform: scaleX(1.1);
+    transition: 5s;
+}
+
+   @media only  screen and (max-width:579px) {
+    products{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+   }
+
+   @media only  screen and (max-width:392px) {
+    products{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+   }
+
+   .gradient{
+    height: 100px;
+    width: 100px;
+    background-image: radial-gradient( red, yellow, blue);
+   }
+
+   .gradient2{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(45deg, rgba(255,0,0,0), rgba(255,0,0,1));
+   }
+   @media screen and (max-width:768px){
+    .nerve{
+        display: none;
+    }
+    .hambugar{
+        display: block;
+    }
+    
+   }
+
+
+
+   
+
+
